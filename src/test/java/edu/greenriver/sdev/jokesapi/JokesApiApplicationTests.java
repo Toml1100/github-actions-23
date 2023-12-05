@@ -36,6 +36,7 @@ class JokesApiApplicationTests {
         HttpStatusCode status = response.getStatusCode();
         Joke[] jokes = response.getBody();
 
+        System.out.println("Hello");
         assertEquals(status, HttpStatus.OK);
         assertTrue(jokes.length > 0);
 
