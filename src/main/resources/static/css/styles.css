@@ -1,0 +1,40 @@
+html{
+    background-color: beige;
+}
+
+/* create a fixed layout with the page */
+body {
+    width: 1000px;
+    margin: auto;
+    background-color: lightblue;
+}
+
+/* create "cards" for each joke */
+.card {
+    border: 2px solid darkBlue;
+    padding: 8px;
+    margin: 12px;
+    background-color: beige;
+
+    width: 200px;
+    display: block;
+}
+
+section#jokes-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label, input, button {
+    display: block;
+    margin-bottom: 4px;
+}
+
+label {
+    font-size: 16px;
+}
+
+form {
+    margin: 12px;
+    padding-top: 12px;
+}
